@@ -24,6 +24,14 @@
 	<string>2.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+    <!-- The folloiwng was added post iOS 10 Resease. -->
+    <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+    <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) photos and video use.</string>
+        <!--End of update for iOS 10 -->
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>

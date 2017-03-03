@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F4AAB811909B67B0040C8B5 /* AAPLStripedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AAB801909B67B0040C8B5 /* AAPLStripedImage.m */; };
+		6F4AAB811909B67B0040C8B5 /* StripedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AAB801909B67B0040C8B5 /* StripedImage.m */; };
 		6F72DAB31907102300047A88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F72DAB11907102300047A88 /* Localizable.strings */; };
 		6F72DAB51907102300047A88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F72DAB41907102300047A88 /* main.m */; };
 		6F72DAB91907102300047A88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F72DAB81907102300047A88 /* AppDelegate.m */; };
 		6F72DABD1907102300047A88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72DABC1907102300047A88 /* Images.xcassets */; };
-		6F7D3F631933FF34006DF71D /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D3F621933FF34006DF71D /* AAPLCameraViewController.m */; };
-		6FD74824190AD93A002C745F /* AAPLCapturePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74823190AD93A002C745F /* AAPLCapturePreviewView.m */; };
-		6FE46E46191BFF8C004BCB45 /* AAPLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE46E45191BFF8C004BCB45 /* AAPLImageViewController.m */; };
-		6FE46E4C191C020C004BCB45 /* AAPLZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE46E4B191C020C004BCB45 /* AAPLZoomImageView.m */; };
+		6F7D3F631933FF34006DF71D /* BracketStripesCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D3F621933FF34006DF71D /* BracketStripesCameraViewController.m */; };
+		6FD74824190AD93A002C745F /* BracketStripesCapturePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD74823190AD93A002C745F /* BracketStripesCapturePreviewView.m */; };
+		6FE46E46191BFF8C004BCB45 /* BracketStripesImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE46E45191BFF8C004BCB45 /* BracketStripesImageViewController.m */; };
+		6FE46E4C191C020C004BCB45 /* BracketStripesZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE46E4B191C020C004BCB45 /* BracketStripesZoomImageView.m */; };
 		6FE46E52191C4EDB004BCB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE46E50191C4EDB004BCB45 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F4AAB7C19098DA10040C8B5 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
-		6F4AAB7F1909B67B0040C8B5 /* AAPLStripedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLStripedImage.h; sourceTree = "<group>"; };
-		6F4AAB801909B67B0040C8B5 /* AAPLStripedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLStripedImage.m; sourceTree = "<group>"; };
+		6F4AAB7C19098DA10040C8B5 /* BracketStripesCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketStripesCameraViewController.h; sourceTree = "<group>"; };
+		6F4AAB7F1909B67B0040C8B5 /* StripedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripedImage.h; sourceTree = "<group>"; };
+		6F4AAB801909B67B0040C8B5 /* StripedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripedImage.m; sourceTree = "<group>"; };
 		6F72DAAC1907102300047A88 /* BracketStripes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BracketStripes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F72DAB01907102300047A88 /* BracketStripes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BracketStripes-Info.plist"; sourceTree = "<group>"; };
 		6F72DAB21907102300047A88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -31,15 +31,15 @@
 		6F72DAB71907102300047A88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F72DAB81907102300047A88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F72DABC1907102300047A88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6F7D3F621933FF34006DF71D /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		6F7D3F621933FF34006DF71D /* BracketStripesCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketStripesCameraViewController.m; sourceTree = "<group>"; };
 		6FAD1D2C19369FBE0082987A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6FD74822190AD93A002C745F /* AAPLCapturePreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCapturePreviewView.h; sourceTree = "<group>"; };
-		6FD74823190AD93A002C745F /* AAPLCapturePreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCapturePreviewView.m; sourceTree = "<group>"; };
-		6FE46E44191BFF8C004BCB45 /* AAPLImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLImageViewController.h; sourceTree = "<group>"; };
-		6FE46E45191BFF8C004BCB45 /* AAPLImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLImageViewController.m; sourceTree = "<group>"; };
-		6FE46E4A191C020C004BCB45 /* AAPLZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLZoomImageView.h; sourceTree = "<group>"; };
-		6FE46E4B191C020C004BCB45 /* AAPLZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLZoomImageView.m; sourceTree = "<group>"; };
-		6FE46E4E191C2B1F004BCB45 /* AAPLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLMacros.h; sourceTree = "<group>"; };
+		6FD74822190AD93A002C745F /* BracketStripesCapturePreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketStripesCapturePreviewView.h; sourceTree = "<group>"; };
+		6FD74823190AD93A002C745F /* BracketStripesCapturePreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketStripesCapturePreviewView.m; sourceTree = "<group>"; };
+		6FE46E44191BFF8C004BCB45 /* BracketStripesImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketStripesImageViewController.h; sourceTree = "<group>"; };
+		6FE46E45191BFF8C004BCB45 /* BracketStripesImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketStripesImageViewController.m; sourceTree = "<group>"; };
+		6FE46E4A191C020C004BCB45 /* BracketStripesZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BracketStripesZoomImageView.h; sourceTree = "<group>"; };
+		6FE46E4B191C020C004BCB45 /* BracketStripesZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BracketStripesZoomImageView.m; sourceTree = "<group>"; };
+		6FE46E4E191C2B1F004BCB45 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		6FE46E53191C4EE3004BCB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FE46E58191C4F7A004BCB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,9 +99,9 @@
 		6F9BE8C7190AE10400281BAF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6F4AAB7F1909B67B0040C8B5 /* AAPLStripedImage.h */,
-				6F4AAB801909B67B0040C8B5 /* AAPLStripedImage.m */,
-				6FE46E4E191C2B1F004BCB45 /* AAPLMacros.h */,
+				6F4AAB7F1909B67B0040C8B5 /* StripedImage.h */,
+				6F4AAB801909B67B0040C8B5 /* StripedImage.m */,
+				6FE46E4E191C2B1F004BCB45 /* Macros.h */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -118,10 +118,10 @@
 		6FD74825190AD97E002C745F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6FD74822190AD93A002C745F /* AAPLCapturePreviewView.h */,
-				6FD74823190AD93A002C745F /* AAPLCapturePreviewView.m */,
-				6FE46E4A191C020C004BCB45 /* AAPLZoomImageView.h */,
-				6FE46E4B191C020C004BCB45 /* AAPLZoomImageView.m */,
+				6FD74822190AD93A002C745F /* BracketStripesCapturePreviewView.h */,
+				6FD74823190AD93A002C745F /* BracketStripesCapturePreviewView.m */,
+				6FE46E4A191C020C004BCB45 /* BracketStripesZoomImageView.h */,
+				6FE46E4B191C020C004BCB45 /* BracketStripesZoomImageView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -129,10 +129,10 @@
 		6FE46E43191AFCE2004BCB45 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6F4AAB7C19098DA10040C8B5 /* AAPLCameraViewController.h */,
-				6F7D3F621933FF34006DF71D /* AAPLCameraViewController.m */,
-				6FE46E44191BFF8C004BCB45 /* AAPLImageViewController.h */,
-				6FE46E45191BFF8C004BCB45 /* AAPLImageViewController.m */,
+				6F4AAB7C19098DA10040C8B5 /* BracketStripesCameraViewController.h */,
+				6F7D3F621933FF34006DF71D /* BracketStripesCameraViewController.m */,
+				6FE46E44191BFF8C004BCB45 /* BracketStripesImageViewController.h */,
+				6FE46E45191BFF8C004BCB45 /* BracketStripesImageViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -173,8 +173,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BS;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Apple, Inc.";
+				TargetAttributes = {
+					6F72DAAB1907102300047A88 = {
+            CreatedOnToolsVersion = 8.0;
+					};
+				};
 			};
 			buildConfigurationList = 6F72DAA71907102300047A88 /* Build configuration list for PBXProject "BracketStripes" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -212,13 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE46E4C191C020C004BCB45 /* AAPLZoomImageView.m in Sources */,
-				6FE46E46191BFF8C004BCB45 /* AAPLImageViewController.m in Sources */,
+				6FE46E4C191C020C004BCB45 /* BracketStripesZoomImageView.m in Sources */,
+				6FE46E46191BFF8C004BCB45 /* BracketStripesImageViewController.m in Sources */,
 				6F72DAB91907102300047A88 /* AppDelegate.m in Sources */,
 				6F72DAB51907102300047A88 /* main.m in Sources */,
-				6F4AAB811909B67B0040C8B5 /* AAPLStripedImage.m in Sources */,
-				6FD74824190AD93A002C745F /* AAPLCapturePreviewView.m in Sources */,
-				6F7D3F631933FF34006DF71D /* AAPLCameraViewController.m in Sources */,
+				6F4AAB811909B67B0040C8B5 /* StripedImage.m in Sources */,
+				6FD74824190AD93A002C745F /* BracketStripesCapturePreviewView.m in Sources */,
+				6F7D3F631933FF34006DF71D /* BracketStripesCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,11 +267,15 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -302,11 +311,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -338,6 +350,7 @@
 				INFOPLIST_FILE = "BracketStripes/BracketStripes-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = BracketStripes;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -360,6 +373,7 @@
 				INFOPLIST_FILE = "BracketStripes/BracketStripes-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = BracketStripes;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
