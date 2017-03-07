@@ -177,7 +177,8 @@
 				ORGANIZATIONNAME = "Apple, Inc.";
 				TargetAttributes = {
 					6F72DAAB1907102300047A88 = {
-            CreatedOnToolsVersion = 8.0;
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Z59E8EDBY;
 					};
 				};
 			};
@@ -339,6 +340,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
 				FRAMEWORK_SEARCH_PATHS = "";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"$(SDK_DIR)/System/Library/PrivateFrameworks/\"",
@@ -366,6 +368,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BracketStripes/BracketStripes-Prefix.pch";
