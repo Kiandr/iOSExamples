@@ -1,18 +1,18 @@
 //
-//  delegateMethodUITests.m
-//  delegateMethodUITests
+//  delegateExampleUITests.m
+//  delegateExampleUITests
 //
-//  Created by Kian Davoudi-Rad on 2017-03-15.
+//  Created by Kian Davoudi-Rad on 2017-03-16.
 //  Copyright © 2017 Kian Davoudi-Rad. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface delegateMethodUITests : XCTestCase
+@interface delegateExampleUITests : XCTestCase
 
 @end
 
-@implementation delegateMethodUITests
+@implementation delegateExampleUITests
 
 - (void)setUp {
     [super setUp];

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:delegateMethod.xcodeproj">
+      location = "self:delegateExample.xcodeproj">
    </FileRef>
 </Workspace>

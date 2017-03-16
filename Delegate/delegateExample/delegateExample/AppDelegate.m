@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  delegateMethod
+//  delegateExample
 //
-//  Created by Kian Davoudi-Rad on 2017-03-15.
+//  Created by Kian Davoudi-Rad on 2017-03-16.
 //  Copyright © 2017 Kian Davoudi-Rad. All rights reserved.
 //
 
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"delegateMethod"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"delegateExample"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.

@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  delegateMethod
+//  delegateExample
 //
-//  Created by Kian Davoudi-Rad on 2017-03-15.
+//  Created by Kian Davoudi-Rad on 2017-03-16.
 //  Copyright © 2017 Kian Davoudi-Rad. All rights reserved.
 //
 
