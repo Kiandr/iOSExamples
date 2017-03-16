@@ -53,6 +53,8 @@
 		2EAA32981E7B259C00876DD5 /* delegateExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegateExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAA329C1E7B259C00876DD5 /* delegateExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegateExampleUITests.m; sourceTree = "<group>"; };
 		2EAA329E1E7B259C00876DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAA32AA1E7B2AAE00876DD5 /* MyClassDelegateprotocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClassDelegateprotocol.h; sourceTree = "<group>"; };
+		2EAA32AB1E7B2B1400876DD5 /* MyClassDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClassDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,8 @@
 				2EAA32881E7B259C00876DD5 /* Info.plist */,
 				2EAA32801E7B259C00876DD5 /* delegateExample.xcdatamodeld */,
 				2EAA32741E7B259C00876DD5 /* Supporting Files */,
+				2EAA32AA1E7B2AAE00876DD5 /* MyClassDelegateprotocol.h */,
+				2EAA32AB1E7B2B1400876DD5 /* MyClassDelegate.h */,
 			);
 			path = delegateExample;
 			sourceTree = "<group>";

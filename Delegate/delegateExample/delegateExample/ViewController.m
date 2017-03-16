@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyClassDelegate.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MyClassDelegate *myclass = [[MyClassDelegate alloc]init];
+    [myclass appDidLoadImage:@"This Is from Caller to Delegate methos"];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
