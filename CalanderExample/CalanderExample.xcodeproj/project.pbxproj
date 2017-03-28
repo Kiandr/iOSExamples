@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E482CEF1E8AFC8100E690E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E482CEE1E8AFC8100E690E6 /* main.m */; };
+		2E482CF21E8AFC8100E690E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E482CF11E8AFC8100E690E6 /* AppDelegate.m */; };
+		2E482CF51E8AFC8100E690E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E482CF41E8AFC8100E690E6 /* ViewController.m */; };
+		2E482CF81E8AFC8100E690E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E482CF61E8AFC8100E690E6 /* Main.storyboard */; };
+		2E482CFB1E8AFC8100E690E6 /* CalanderExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E482CF91E8AFC8100E690E6 /* CalanderExample.xcdatamodeld */; };
+		2E482CFD1E8AFC8100E690E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E482CFC1E8AFC8100E690E6 /* Assets.xcassets */; };
+		2E482D001E8AFC8100E690E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E482CFE1E8AFC8100E690E6 /* LaunchScreen.storyboard */; };
+		2E482D0B1E8AFC8100E690E6 /* CalanderExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E482D0A1E8AFC8100E690E6 /* CalanderExampleTests.m */; };
+		2E482D161E8AFC8100E690E6 /* CalanderExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E482D151E8AFC8100E690E6 /* CalanderExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E482D071E8AFC8100E690E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E482CE21E8AFC8100E690E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E482CE91E8AFC8100E690E6;
+			remoteInfo = CalanderExample;
+		};
+		2E482D121E8AFC8100E690E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E482CE21E8AFC8100E690E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E482CE91E8AFC8100E690E6;
+			remoteInfo = CalanderExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E482CEA1E8AFC8100E690E6 /* CalanderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalanderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E482CEE1E8AFC8100E690E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E482CF01E8AFC8100E690E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E482CF11E8AFC8100E690E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E482CF31E8AFC8100E690E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E482CF41E8AFC8100E690E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E482CF71E8AFC8100E690E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E482CFA1E8AFC8100E690E6 /* CalanderExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalanderExample.xcdatamodel; sourceTree = "<group>"; };
+		2E482CFC1E8AFC8100E690E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E482CFF1E8AFC8100E690E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E482D011E8AFC8100E690E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E482D061E8AFC8100E690E6 /* CalanderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalanderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E482D0A1E8AFC8100E690E6 /* CalanderExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalanderExampleTests.m; sourceTree = "<group>"; };
+		2E482D0C1E8AFC8100E690E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E482D111E8AFC8100E690E6 /* CalanderExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalanderExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E482D151E8AFC8100E690E6 /* CalanderExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalanderExampleUITests.m; sourceTree = "<group>"; };
+		2E482D171E8AFC8100E690E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E482CE71E8AFC8100E690E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D031E8AFC8100E690E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D0E1E8AFC8100E690E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E482CE11E8AFC8100E690E6 = {
+			isa = PBXGroup;
+			children = (
+				2E482CEC1E8AFC8100E690E6 /* CalanderExample */,
+				2E482D091E8AFC8100E690E6 /* CalanderExampleTests */,
+				2E482D141E8AFC8100E690E6 /* CalanderExampleUITests */,
+				2E482CEB1E8AFC8100E690E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E482CEB1E8AFC8100E690E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E482CEA1E8AFC8100E690E6 /* CalanderExample.app */,
+				2E482D061E8AFC8100E690E6 /* CalanderExampleTests.xctest */,
+				2E482D111E8AFC8100E690E6 /* CalanderExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E482CEC1E8AFC8100E690E6 /* CalanderExample */ = {
+			isa = PBXGroup;
+			children = (
+				2E482CF01E8AFC8100E690E6 /* AppDelegate.h */,
+				2E482CF11E8AFC8100E690E6 /* AppDelegate.m */,
+				2E482CF31E8AFC8100E690E6 /* ViewController.h */,
+				2E482CF41E8AFC8100E690E6 /* ViewController.m */,
+				2E482CF61E8AFC8100E690E6 /* Main.storyboard */,
+				2E482CFC1E8AFC8100E690E6 /* Assets.xcassets */,
+				2E482CFE1E8AFC8100E690E6 /* LaunchScreen.storyboard */,
+				2E482D011E8AFC8100E690E6 /* Info.plist */,
+				2E482CF91E8AFC8100E690E6 /* CalanderExample.xcdatamodeld */,
+				2E482CED1E8AFC8100E690E6 /* Supporting Files */,
+			);
+			path = CalanderExample;
+			sourceTree = "<group>";
+		};
+		2E482CED1E8AFC8100E690E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E482CEE1E8AFC8100E690E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E482D091E8AFC8100E690E6 /* CalanderExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E482D0A1E8AFC8100E690E6 /* CalanderExampleTests.m */,
+				2E482D0C1E8AFC8100E690E6 /* Info.plist */,
+			);
+			path = CalanderExampleTests;
+			sourceTree = "<group>";
+		};
+		2E482D141E8AFC8100E690E6 /* CalanderExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E482D151E8AFC8100E690E6 /* CalanderExampleUITests.m */,
+				2E482D171E8AFC8100E690E6 /* Info.plist */,
+			);
+			path = CalanderExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E482CE91E8AFC8100E690E6 /* CalanderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E482D1A1E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExample" */;
+			buildPhases = (
+				2E482CE61E8AFC8100E690E6 /* Sources */,
+				2E482CE71E8AFC8100E690E6 /* Frameworks */,
+				2E482CE81E8AFC8100E690E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalanderExample;
+			productName = CalanderExample;
+			productReference = 2E482CEA1E8AFC8100E690E6 /* CalanderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E482D051E8AFC8100E690E6 /* CalanderExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E482D1D1E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExampleTests" */;
+			buildPhases = (
+				2E482D021E8AFC8100E690E6 /* Sources */,
+				2E482D031E8AFC8100E690E6 /* Frameworks */,
+				2E482D041E8AFC8100E690E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E482D081E8AFC8100E690E6 /* PBXTargetDependency */,
+			);
+			name = CalanderExampleTests;
+			productName = CalanderExampleTests;
+			productReference = 2E482D061E8AFC8100E690E6 /* CalanderExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E482D101E8AFC8100E690E6 /* CalanderExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E482D201E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExampleUITests" */;
+			buildPhases = (
+				2E482D0D1E8AFC8100E690E6 /* Sources */,
+				2E482D0E1E8AFC8100E690E6 /* Frameworks */,
+				2E482D0F1E8AFC8100E690E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E482D131E8AFC8100E690E6 /* PBXTargetDependency */,
+			);
+			name = CalanderExampleUITests;
+			productName = CalanderExampleUITests;
+			productReference = 2E482D111E8AFC8100E690E6 /* CalanderExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E482CE21E8AFC8100E690E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kian Davoudi-Rad";
+				TargetAttributes = {
+					2E482CE91E8AFC8100E690E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Z59E8EDBY;
+						ProvisioningStyle = Automatic;
+					};
+					2E482D051E8AFC8100E690E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Z59E8EDBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E482CE91E8AFC8100E690E6;
+					};
+					2E482D101E8AFC8100E690E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7Z59E8EDBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E482CE91E8AFC8100E690E6;
+					};
+				};
+			};
+			buildConfigurationList = 2E482CE51E8AFC8100E690E6 /* Build configuration list for PBXProject "CalanderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E482CE11E8AFC8100E690E6;
+			productRefGroup = 2E482CEB1E8AFC8100E690E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E482CE91E8AFC8100E690E6 /* CalanderExample */,
+				2E482D051E8AFC8100E690E6 /* CalanderExampleTests */,
+				2E482D101E8AFC8100E690E6 /* CalanderExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E482CE81E8AFC8100E690E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E482D001E8AFC8100E690E6 /* LaunchScreen.storyboard in Resources */,
+				2E482CFD1E8AFC8100E690E6 /* Assets.xcassets in Resources */,
+				2E482CF81E8AFC8100E690E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D041E8AFC8100E690E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D0F1E8AFC8100E690E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E482CE61E8AFC8100E690E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E482CF51E8AFC8100E690E6 /* ViewController.m in Sources */,
+				2E482CF21E8AFC8100E690E6 /* AppDelegate.m in Sources */,
+				2E482CFB1E8AFC8100E690E6 /* CalanderExample.xcdatamodeld in Sources */,
+				2E482CEF1E8AFC8100E690E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D021E8AFC8100E690E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E482D0B1E8AFC8100E690E6 /* CalanderExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E482D0D1E8AFC8100E690E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E482D161E8AFC8100E690E6 /* CalanderExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E482D081E8AFC8100E690E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E482CE91E8AFC8100E690E6 /* CalanderExample */;
+			targetProxy = 2E482D071E8AFC8100E690E6 /* PBXContainerItemProxy */;
+		};
+		2E482D131E8AFC8100E690E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E482CE91E8AFC8100E690E6 /* CalanderExample */;
+			targetProxy = 2E482D121E8AFC8100E690E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E482CF61E8AFC8100E690E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E482CF71E8AFC8100E690E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E482CFE1E8AFC8100E690E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E482CFF1E8AFC8100E690E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E482D181E8AFC8100E690E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E482D191E8AFC8100E690E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E482D1B1E8AFC8100E690E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E482D1C1E8AFC8100E690E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E482D1E1E8AFC8100E690E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalanderExample.app/CalanderExample";
+			};
+			name = Debug;
+		};
+		2E482D1F1E8AFC8100E690E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalanderExample.app/CalanderExample";
+			};
+			name = Release;
+		};
+		2E482D211E8AFC8100E690E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalanderExample;
+			};
+			name = Debug;
+		};
+		2E482D221E8AFC8100E690E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
+				INFOPLIST_FILE = CalanderExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.CalanderExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalanderExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E482CE51E8AFC8100E690E6 /* Build configuration list for PBXProject "CalanderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E482D181E8AFC8100E690E6 /* Debug */,
+				2E482D191E8AFC8100E690E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E482D1A1E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E482D1B1E8AFC8100E690E6 /* Debug */,
+				2E482D1C1E8AFC8100E690E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E482D1D1E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E482D1E1E8AFC8100E690E6 /* Debug */,
+				2E482D1F1E8AFC8100E690E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E482D201E8AFC8100E690E6 /* Build configuration list for PBXNativeTarget "CalanderExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E482D211E8AFC8100E690E6 /* Debug */,
+				2E482D221E8AFC8100E690E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E482CF91E8AFC8100E690E6 /* CalanderExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E482CFA1E8AFC8100E690E6 /* CalanderExample.xcdatamodel */,
+			);
+			currentVersion = 2E482CFA1E8AFC8100E690E6 /* CalanderExample.xcdatamodel */;
+			path = CalanderExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E482CE21E8AFC8100E690E6 /* Project object */;
+}

@@ -13,6 +13,7 @@
     //Local Vars
     id <MyClassDelegateProtocol> delegate;
 }
+// Autosynthesize the member, It Actually provides getter and setter.
 @property (nonatomic, assign) id <MyClassDelegateProtocol> delegate;
 @end
 
