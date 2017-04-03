@@ -20,8 +20,8 @@
     _calServices = [[ICalServices alloc]init];
     [_calServices loadCalanderServices];
     [_calServices checkEventStoreAccessForCalendar];
-    NSMutableArray *test = [_calServices fetchEvents];
-    NSLog(@"OK,%@",test);
+//    NSMutableArray *test = [_calServices fetchEvents];
+//    NSLog(@"OK,%@",test);
 }
 
 
