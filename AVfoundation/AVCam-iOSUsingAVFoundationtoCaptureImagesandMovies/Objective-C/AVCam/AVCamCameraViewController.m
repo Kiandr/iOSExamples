@@ -589,7 +589,7 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
 	*/
 	AVCaptureVideoOrientation videoPreviewLayerVideoOrientation = self.previewView.videoPreviewLayer.connection.videoOrientation;
 
-	dispatch_async( self.sessionQueue, ^{
+//	dispatch_async( self.sessionQueue, ^{
 		
 		// Update the photo output's connection to match the video orientation of the video preview layer.
 		AVCaptureConnection *photoOutputConnection = [self.photoOutput connectionWithMediaType:AVMediaTypeVideo];
@@ -657,7 +657,7 @@ typedef NS_ENUM( NSInteger, AVCamLivePhotoMode ) {
 		*/
 		self.inProgressPhotoCaptureDelegates[@(photoCaptureDelegate.requestedPhotoSettings.uniqueID)] = photoCaptureDelegate;
 		[self.photoOutput capturePhotoWithSettings:photoSettings delegate:photoCaptureDelegate];
-	} );
+//	} );
 }
 
 - (IBAction)toggleLivePhotoMode:(UIButton *)livePhotoModeButton

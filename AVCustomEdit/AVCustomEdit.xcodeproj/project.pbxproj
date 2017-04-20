@@ -234,6 +234,11 @@
 				CLASSPREFIX = APL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					EFB5E86416C0703900FA50C1 = {
+						DevelopmentTeam = 7Z59E8EDBY;
+					};
+				};
 			};
 			buildConfigurationList = EFB5E86016C0703900FA50C1 /* Build configuration list for PBXProject "AVCustomEdit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -385,6 +390,7 @@
 				CLANG_ANALYZER_OBJC_RETAIN_COUNT = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVCustomEdit/AVCustomEdit-Prefix.pch";
@@ -402,6 +408,7 @@
 				CLANG_ANALYZER_OBJC_RETAIN_COUNT = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				DEVELOPMENT_TEAM = 7Z59E8EDBY;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVCustomEdit/AVCustomEdit-Prefix.pch";
