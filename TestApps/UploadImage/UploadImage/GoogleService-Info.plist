@@ -7,25 +7,25 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>80261410969-ivib192c70srajcdbe0mfi0vkc9kag1s.apps.googleusercontent.com</string>
+	<string>562707876585-vmgob4eipgvblru2lp7ijnqiqreegn4a.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.80261410969-ivib192c70srajcdbe0mfi0vkc9kag1s</string>
+	<string>com.googleusercontent.apps.562707876585-vmgob4eipgvblru2lp7ijnqiqreegn4a</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB7wD2EY_JaPTljfn55r9dpjgIT9hB6Yqw</string>
+	<string>AIzaSyDemebof7Lwg-4sGxGY9F1qDhZ9ikdz-Po</string>
 	<key>GCM_SENDER_ID</key>
-	<string>80261410969</string>
+	<string>562707876585</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>kdr.UploadImage</string>
 	<key>PROJECT_ID</key>
-	<string>uploadimage-de7f4</string>
+	<string>helloworld-37c45</string>
 	<key>STORAGE_BUCKET</key>
-	<string>uploadimage-de7f4.appspot.com</string>
+	<string>helloworld-37c45.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<true/>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false/>
 	<key>IS_GCM_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:80261410969:ios:cbad5c1e0bc67b94</string>
+	<string>1:562707876585:ios:cbad5c1e0bc67b94</string>
 	<key>DATABASE_URL</key>
-	<string>https://uploadimage-de7f4.firebaseio.com</string>
+	<string>https://helloworld-37c45.firebaseio.com</string>
 </dict>
 </plist>

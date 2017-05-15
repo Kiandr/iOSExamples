@@ -16,7 +16,7 @@
 		2E84C2381EC4D2B5000320DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E84C2361EC4D2B5000320DD /* LaunchScreen.storyboard */; };
 		2E84C2431EC4D2B5000320DD /* UploadImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84C2421EC4D2B5000320DD /* UploadImageTests.m */; };
 		2E84C24E1EC4D2B5000320DD /* UploadImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84C24D1EC4D2B5000320DD /* UploadImageUITests.m */; };
-		2E84C25C1EC4EBC7000320DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E84C25B1EC4EBC7000320DD /* GoogleService-Info.plist */; };
+		2EA39BDF1ECA1CB800BCBB5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EA39BDE1ECA1CB800BCBB5C /* GoogleService-Info.plist */; };
 		8E5E0005E42E950B02FB0920 /* libPods-UploadImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA82B966CD9939B313A8C58C /* libPods-UploadImage.a */; };
 		D2A52B03F01163D6E4BCE0CE /* libPods-UploadImageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CF038F10D108E31667F577 /* libPods-UploadImageUITests.a */; };
 		EA0432612824BEE161E18A22 /* libPods-UploadImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4626D48B9242B2E282AF /* libPods-UploadImageTests.a */; };
@@ -59,7 +59,7 @@
 		2E84C2491EC4D2B5000320DD /* UploadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E84C24D1EC4D2B5000320DD /* UploadImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadImageUITests.m; sourceTree = "<group>"; };
 		2E84C24F1EC4D2B5000320DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E84C25B1EC4EBC7000320DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EA39BDE1ECA1CB800BCBB5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		62CF038F10D108E31667F577 /* libPods-UploadImageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UploadImageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814C4626D48B9242B2E282AF /* libPods-UploadImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UploadImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1E5D29D7E935DD26E35C09 /* Pods-UploadImageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImageUITests/Pods-UploadImageUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 				2E84C2341EC4D2B5000320DD /* Assets.xcassets */,
 				2E84C2361EC4D2B5000320DD /* LaunchScreen.storyboard */,
 				2E84C2391EC4D2B5000320DD /* Info.plist */,
-				2E84C25B1EC4EBC7000320DD /* GoogleService-Info.plist */,
+				2EA39BDE1ECA1CB800BCBB5C /* GoogleService-Info.plist */,
 				2E84C2311EC4D2B5000320DD /* UploadImage.xcdatamodeld */,
 				2E84C2251EC4D2B5000320DD /* Supporting Files */,
 			);
@@ -305,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E84C2381EC4D2B5000320DD /* LaunchScreen.storyboard in Resources */,
-				2E84C25C1EC4EBC7000320DD /* GoogleService-Info.plist in Resources */,
+				2EA39BDF1ECA1CB800BCBB5C /* GoogleService-Info.plist in Resources */,
 				2E84C2351EC4D2B5000320DD /* Assets.xcassets in Resources */,
 				2E84C2301EC4D2B5000320DD /* Main.storyboard in Resources */,
 			);
@@ -719,6 +719,7 @@
 				2E84C2541EC4D2B5000320DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E84C2551EC4D2B5000320DD /* Build configuration list for PBXNativeTarget "UploadImageTests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +728,7 @@
 				2E84C2571EC4D2B5000320DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E84C2581EC4D2B5000320DD /* Build configuration list for PBXNativeTarget "UploadImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +737,7 @@
 				2E84C25A1EC4D2B5000320DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
