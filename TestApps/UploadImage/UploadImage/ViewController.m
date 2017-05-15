@@ -109,8 +109,8 @@
 
 
    UIImage *chosenImage = info[UIImagePickerControllerOriginalImage];
-    self.UiImagePickerView.image = chosenImage;
-    [self uploadToGoogle:chosenImage];
+    //self.UiImagePickerView.image = chosenImage;
+    [self uploadToGoogle:[self splitImage:chosenImage]];
 
     [picker dismissViewControllerAnimated:YES completion:NULL];
 
@@ -132,13 +132,14 @@
 
     //NSString *imagePath = [NSString stringWithFormat:@"%@/%lld.jpeg", [FIRAuth auth].currentUser.uid, (long long)([NSDate date].timeIntervalSince1970 * 1000.0)];
     //NSString *imagePath = [NSString stringWithFormat:@"%@/%lld.png", [FIRAuth auth].currentUser.uid, (long long)([NSDate date].timeIntervalSince1970 * 1000.0)];
-      NSString *imagePath = [NSString stringWithFormat:@"%@/%lld.dng", [FIRAuth auth].currentUser.uid, (long long)([NSDate date].timeIntervalSince1970 * 1000.0)];
+    NSString *imagePath = [NSString stringWithFormat:@"%@/%lld.dng", [FIRAuth auth].currentUser.uid, (long long)([NSDate date].timeIntervalSince1970 * 1000.0)];
 
 
 
     FIRStorageMetadata *metadata = [FIRStorageMetadata new];
     //metadata.contentType = @"image/JPEG";
     metadata.contentType = @"image/dng";
+    //metadata.contentType = @"image/png";
     [[_storageRef child:imagePath] putData:imageData metadata:metadata
                                 completion:^(FIRStorageMetadata * _Nullable metadata, NSError * _Nullable error) {
                                     if (error) {
@@ -150,6 +151,19 @@
                                 }];
 
 }
+
+
+- (UIImage*)splitImage :(UIImage *)image
+{
+    UIImage *incomingImage = image;
+    CGImageRef prtImageTop = (incomingImage.CGImage);
+    CGImageRef topImageRef = CGImageCreateWithImageInRect(prtImageTop, CGRectMake(0, 0, incomingImage.size.width/4, incomingImage.size.height/4));
+    _UiImagePickerView.image = [UIImage imageWithCGImage:topImageRef];
+    return ([UIImage imageWithCGImage:topImageRef]);
+
+}
+
+
 
 -(void)uploadFailed:(NSError*) error{
     NSLog(@"Error uploading: %@", error);
